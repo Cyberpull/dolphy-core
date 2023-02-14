@@ -1,0 +1,23 @@
+{
+  "name": "cyberpull/dolphy-core",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Christian Ezeani",
+      "email": "christian.ezeani@gmail.com"
+    }
+  ],
+  "require": {
+    "cmb2/cmb2": "dev-master"
+  },
+  "autoload": {
+    "files": [
+      "vendor/cmb2/cmb2/init.php",
+      "src/init.php"
+    ],
+    "psr-4": {
+      "Dolphy\\Core\\": "src/classes/"
+    }
+  }
+}
